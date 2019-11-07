@@ -1,0 +1,29 @@
+{
+    "name": "testing_ntlm_auth_with_node.js_api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kanataki/testing_ntlm_auth_with_node.js_api.git"
+    },
+    "author": "Kanataki",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Kanataki/testing_ntlm_auth_with_node.js_api/issues"
+    },
+    "homepage": "https://github.com/Kanataki/testing_ntlm_auth_with_node.js_api#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-ntlm": "^2.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.4"
+    }
+}
